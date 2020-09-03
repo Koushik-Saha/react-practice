@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import Auxx from '../../hoc/Auxx';
+import Aux from '../../hoc/Auxx';
 import classes from './Layout.css';
 
-const layout = (props) => (
-    <Auxx>
-        <div> Toolbar, SideDrawer, Backdrop</div>
+const layout = ( props ) => (
+    <Aux>
+        <div>Toolbar, SideDrawer, Backdrop</div>
         <main className={classes.Content}>
             {props.children}
         </main>
-    </Auxx>
+    </Aux>
 );
+
 export default layout;
