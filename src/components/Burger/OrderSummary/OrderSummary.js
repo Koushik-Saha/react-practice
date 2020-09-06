@@ -34,4 +34,8 @@ class OrderSummary extends Component {
     }
 }
 
+<<<<<<< HEAD
 export default OrderSummary;
+=======
+export default OrderSummary;
+>>>>>>> b42fead7f4dcd2d6a746c4ccf5552d803a41a1e2
