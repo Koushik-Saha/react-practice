@@ -33,4 +33,5 @@ class OrderSummary extends Component {
         );
     }
 }
+
 export default OrderSummary;
