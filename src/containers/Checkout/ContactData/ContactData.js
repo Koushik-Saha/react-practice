@@ -23,7 +23,7 @@ class ContactData extends Component {
             ingredients: this.props.ingredients,
             price: this.props.price,
             customer: {
-                name: 'Koushik Saha',
+                name: 'Koushik',
                 address: {
                     street: '1020 Street',
                     zipCode: '1209',
